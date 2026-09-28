@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 440" role="img" aria-label="MNIST training and validation curves">
+<rect width="1040" height="440" fill="#fff"/>
+<style>text{font-family:system-ui,sans-serif;fill:#243144} .title{font-size:18px;font-weight:600} .tick{font-size:11px;fill:#65738a} .legend{font-size:12px}</style>
+<text class="title" x="68" y="32">Cross-entropy loss</text>
+<line x1="68" y1="65.0" x2="488" y2="65.0" stroke="#e6ebf2"/>
+<text class="tick" x="60" y="69.0" text-anchor="end">0.16</text>
+<line x1="68" y1="123.0" x2="488" y2="123.0" stroke="#e6ebf2"/>
+<text class="tick" x="60" y="127.0" text-anchor="end">0.13</text>
+<line x1="68" y1="181.0" x2="488" y2="181.0" stroke="#e6ebf2"/>
+<text class="tick" x="60" y="185.0" text-anchor="end">0.10</text>
+<line x1="68" y1="239.0" x2="488" y2="239.0" stroke="#e6ebf2"/>
+<text class="tick" x="60" y="243.0" text-anchor="end">0.07</text>
+<line x1="68" y1="297.0" x2="488" y2="297.0" stroke="#e6ebf2"/>
+<text class="tick" x="60" y="301.0" text-anchor="end">0.03</text>
+<line x1="68" y1="355.0" x2="488" y2="355.0" stroke="#e6ebf2"/>
+<text class="tick" x="60" y="359.0" text-anchor="end">0.00</text>
+<line x1="68" y1="65" x2="68" y2="355" stroke="#718096"/>
+<line x1="68" y1="355" x2="488" y2="355" stroke="#718096"/>
+<text class="tick" x="68.0" y="375" text-anchor="middle">1</text>
+<text class="tick" x="156.4" y="375" text-anchor="middle">5</text>
+<text class="tick" x="266.9" y="375" text-anchor="middle">10</text>
+<text class="tick" x="377.5" y="375" text-anchor="middle">15</text>
+<text class="tick" x="488.0" y="375" text-anchor="middle">20</text>
+<polyline points="68.0,124.0 90.1,221.0 112.2,267.0 134.3,296.3 156.4,284.7 178.5,315.8 200.6,317.4 222.7,328.0 244.8,321.5 266.9,340.4 289.1,344.4 311.2,341.4 333.3,345.7 355.4,345.3 377.5,344.0 399.6,343.0 421.7,345.5 443.8,349.5 465.9,334.6 488.0,337.4" fill="none" stroke="#2463b4" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="68" y1="402" x2="88" y2="402" stroke="#2463b4" stroke-width="3"/>
+<text class="legend" x="95" y="406">Training</text>
+<polyline points="68.0,78.8 90.1,151.0 112.2,190.7 134.3,195.5 156.4,175.0 178.5,182.0 200.6,189.3 222.7,192.4 244.8,167.8 266.9,193.1 289.1,196.0 311.2,173.4 333.3,165.4 355.4,167.5 377.5,153.8 399.6,157.7 421.7,183.1 443.8,164.2 465.9,130.4 488.0,124.9" fill="none" stroke="#dc5e3b" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="193" y1="402" x2="213" y2="402" stroke="#dc5e3b" stroke-width="3"/>
+<text class="legend" x="220" y="406">Validation</text>
+<text class="tick" x="278.0" y="390" text-anchor="middle">Epoch</text>
+<text class="title" x="578" y="32">Accuracy</text>
+<line x1="578" y1="65.0" x2="998" y2="65.0" stroke="#e6ebf2"/>
+<text class="tick" x="570" y="69.0" text-anchor="end">1.00</text>
+<line x1="578" y1="123.0" x2="998" y2="123.0" stroke="#e6ebf2"/>
+<text class="tick" x="570" y="127.0" text-anchor="end">0.96</text>
+<line x1="578" y1="181.0" x2="998" y2="181.0" stroke="#e6ebf2"/>
+<text class="tick" x="570" y="185.0" text-anchor="end">0.92</text>
+<line x1="578" y1="239.0" x2="998" y2="239.0" stroke="#e6ebf2"/>
+<text class="tick" x="570" y="243.0" text-anchor="end">0.88</text>
+<line x1="578" y1="297.0" x2="998" y2="297.0" stroke="#e6ebf2"/>
+<text class="tick" x="570" y="301.0" text-anchor="end">0.84</text>
+<line x1="578" y1="355.0" x2="998" y2="355.0" stroke="#e6ebf2"/>
+<text class="tick" x="570" y="359.0" text-anchor="end">0.80</text>
+<line x1="578" y1="65" x2="578" y2="355" stroke="#718096"/>
+<line x1="578" y1="355" x2="998" y2="355" stroke="#718096"/>
+<text class="tick" x="578.0" y="375" text-anchor="middle">1</text>
+<text class="tick" x="666.4" y="375" text-anchor="middle">5</text>
+<text class="tick" x="776.9" y="375" text-anchor="middle">10</text>
+<text class="tick" x="887.5" y="375" text-anchor="middle">15</text>
+<text class="tick" x="998.0" y="375" text-anchor="middle">20</text>
+<polyline points="578.0,119.9 600.1,97.3 622.2,86.0 644.3,79.2 666.4,84.5 688.5,75.0 710.6,75.7 732.7,71.2 754.8,74.8 776.9,68.7 799.1,67.2 821.2,68.5 843.3,67.2 865.4,67.5 887.5,68.0 909.6,68.0 931.7,67.6 953.8,66.3 975.9,70.2 998.0,69.5" fill="none" stroke="#2463b4" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="578" y1="402" x2="598" y2="402" stroke="#2463b4" stroke-width="3"/>
+<text class="legend" x="605" y="406">Training</text>
+<polyline points="578.0,126.8 600.1,117.2 622.2,102.4 644.3,105.3 666.4,104.7 688.5,102.7 710.6,103.9 732.7,98.6 754.8,104.2 776.9,99.5 799.1,97.5 821.2,97.2 843.3,99.2 865.4,98.4 887.5,98.6 909.6,97.8 931.7,95.2 953.8,97.2 975.9,99.5 998.0,100.7" fill="none" stroke="#dc5e3b" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="703" y1="402" x2="723" y2="402" stroke="#dc5e3b" stroke-width="3"/>
+<text class="legend" x="730" y="406">Validation</text>
+<text class="tick" x="788.0" y="390" text-anchor="middle">Epoch</text>
+</svg>

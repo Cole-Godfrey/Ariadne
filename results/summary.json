@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "architecture": [
+    784,
+    256,
+    128,
+    10
+  ],
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 128,
+  "epochs": 20,
+  "train_examples": 55000,
+  "validation_examples": 5000,
+  "test_examples": 10000,
+  "best_epoch": 17,
+  "test_loss": 0.0948319562792778,
+  "test_accuracy": 0.9791
+}
