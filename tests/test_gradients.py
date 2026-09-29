@@ -1,10 +1,10 @@
-"""Numerical checks for the reverse-mode gradients."""
+"""numerical checks for the reverse-mode gradients."""
 
 import unittest
 
 import numpy as np
 
-from gradforge import Adam, MLP, SGD, Tensor, cross_entropy
+from ariadne import Adam, MLP, SGD, Tensor, cross_entropy
 
 
 def finite_difference(function, array, step=1e-5):

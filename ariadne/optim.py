@@ -1,4 +1,4 @@
-"""NumPy implementations of SGD and Adam."""
+"""implement SGD and Adam with NumPy."""
 
 from __future__ import annotations
 

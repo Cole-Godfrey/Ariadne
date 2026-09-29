@@ -1,4 +1,4 @@
-"""Neural-network layers built from Tensor operations."""
+"""neural-network layers built from Tensor operations."""
 
 from __future__ import annotations
 

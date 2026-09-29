@@ -1,4 +1,4 @@
-"""A small NumPy neural-network framework with reverse-mode autodiff."""
+"""a small NumPy neural-network framework with reverse-mode autodiff."""
 
 from .nn import Linear, MLP, ReLU
 from .optim import Adam, SGD

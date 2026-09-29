@@ -1,4 +1,4 @@
-"""Scalar-loss reverse-mode autodiff over NumPy arrays."""
+"""scalar-loss reverse-mode autodiff over NumPy arrays."""
 
 from __future__ import annotations
 
@@ -185,7 +185,7 @@ class Tensor:
 
 
 def cross_entropy(logits: Tensor, targets: np.ndarray) -> Tensor:
-    """Return mean softmax cross-entropy for integer class labels."""
+    """return mean softmax cross-entropy for integer class labels."""
     if logits.data.ndim != 2:
         raise ValueError("logits must have shape (batch, classes)")
     targets = np.asarray(targets)

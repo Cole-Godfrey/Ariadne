@@ -1,4 +1,4 @@
-"""Render loss and accuracy curves as a dependency-free SVG."""
+"""render loss and accuracy curves as a dependency-free SVG."""
 
 from __future__ import annotations
 

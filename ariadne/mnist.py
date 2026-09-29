@@ -1,4 +1,4 @@
-"""Download, verify, and read the original MNIST IDX files."""
+"""download, verify, and read the original MNIST IDX files."""
 
 from __future__ import annotations
 

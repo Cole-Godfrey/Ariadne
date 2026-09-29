@@ -1,4 +1,4 @@
-"""Train the MLP on MNIST and save a reproducible experiment record."""
+"""train the MLP on MNIST and save a reproducible experiment record."""
 
 from __future__ import annotations
 
