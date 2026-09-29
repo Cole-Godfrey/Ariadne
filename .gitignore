@@ -4,4 +4,5 @@ __pycache__/
 *.py[cod]
 data/
 results/*.npz
+!results/best_model.npz
 .DS_Store
